@@ -4,9 +4,14 @@ namespace dotNETStudy
 {
     class Program
     {
+        static int SumCalculeted(int firstNumber, int secondNumber)
+        {
+            return firstNumber + secondNumber;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
+            int result = SumCalculeted(10, 569);
+            Console.WriteLine(result);
         }
     }
 }
